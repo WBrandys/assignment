@@ -41,7 +41,7 @@ git clone git@github.com:WBrandys/your_repository_name.git
 
 ```
 git add file_name
-git commit -m file_name "commit_info"
+git commit -m "commit_info"
 git push main origin
 ```
 
@@ -53,17 +53,18 @@ Additional information:
 - To see a difference between commits `git diff`
 
 ### Branching and merging
+Branching allows us to experiment on the project without doing changes on main. Then we
+can make our branch the main one with merging.
 
 - Create a new branch
 ```
 git branch branch_name
 ```
 - Change working branch
-
 ```
 git checkout branch_name
 ```
-- Merge content of different branches
+- Merge content of different branches (make sure you are in the correct branch)
 ```
 git merge branch_name
 ```
