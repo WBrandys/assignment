@@ -47,5 +47,6 @@ git add file_name
 git commit -m file_name "commit_info"
 git push main origin
 ```
-	- origin is the default name Git gives to the server you cloned from
-	- Add `--amend` if you made any mistake in commit message
+
+- origin is the default name Git gives to the server you cloned from
+- Add `--amend` if you made any mistake in commit message
