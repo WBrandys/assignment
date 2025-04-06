@@ -10,7 +10,6 @@ This is a short guide how to use git.
 
 It contains **the most important commands** and their understanding
 ### Configuration
-
 ```
 git config --global user.name "your_username"
 git config --global user.email your_email
@@ -18,8 +17,6 @@ git config --list
 ```
 
 ### Ssh key
-- 
-
 ```
 ls -al ~/.ssh
 ssh-keygen -t ed25519 -C "your_email"
@@ -48,5 +45,27 @@ git commit -m file_name "commit_info"
 git push main origin
 ```
 
-- origin is the default name Git gives to the server you cloned from
-- Add `--amend` if you made any mistake in commit message
+Additional information:
+- "origin" is the default name Git gives to the server you cloned from
+- Add `commit -m --amend` if you made any mistake in commit message
+- Type `add -u` to 
+- To check a status write `git status`
+- To see a difference between commits `git diff`
+
+### Branching and merging
+
+- Create a new branch
+```
+git branch branch_name
+```
+- Change working branch
+
+```
+git checkout branch_name
+```
+- Merge content of different branches
+```
+git merge branch_name
+```
+
+### Restoring
