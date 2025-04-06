@@ -66,4 +66,16 @@ git merge branch_name
 ```
 Make sure you're on the branch you want to _merge into_ before running the merge.
 
-### Restoring
+### More basic commands:
+- To see all the commits use:
+```
+git log
+```
+- To downloads from remote and merges with local use:
+```
+git pull
+```
+- To downloads info from remote, but does not merge with local use:
+```
+git fetch
+```
