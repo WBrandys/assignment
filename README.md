@@ -6,7 +6,8 @@ Date: 06.04.2025
 I'm a bioinformatician student on UJ
 
 ## Git summary
-This is a short guide on how to use Git.  It contains **the most important commands** and their explanation.
+This is a short guide on how to use Git. 
+It contains **the most important commands** and their explanation.
 ### Configuration
 ```
 git config --global user.name "your_username"
@@ -75,7 +76,7 @@ git log
 ```
 git pull
 ```
-- To downloads info from remote, but does not merge with local use:
+- To download changes from remote without merging use:
 ```
 git fetch
 ```
