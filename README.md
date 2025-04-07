@@ -7,6 +7,7 @@ I'm a bioinformatician student on UJ
 
 ## Git summary
 This is a short guide on how to use Git. 
+
 It contains **the most important commands** and their explanation.
 ### Configuration
 ```
