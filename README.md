@@ -72,7 +72,7 @@ Make sure you're on the branch you want to _merge into_ before running the merge
 ```
 git log
 ```
-- To downloads from remote and merges with local use:
+- To download changes from remote and merges into local branch use:
 ```
 git pull
 ```
