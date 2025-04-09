@@ -45,12 +45,12 @@ git commit -m "commit_info"
 git push main origin
 ```
 
-**Additional tips:**
-- "origin" is the default name Git gives to the remote repository,
-- Use `commit -m --amend` if you made any mistake in last commit message
-- Use `add -u` to 
-- To check current changes use `git status`
-- To see a difference between commits use `git diff`
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+> "origin" is the default name Git gives to the remote repository,
+> Use `commit -m --amend` if you made any mistake in last commit message
+> To check current changes use `git status`
+> To see a difference between commits use `git diff`
 
 ### Branching and merging
 Branching lets you experiment without affecting the main branch. Later, you can merge changes back.
@@ -66,7 +66,8 @@ git checkout branch_name
 ```
 git merge branch_name
 ```
-Make sure you're on the branch you want to _merge into_ before running the merge.
+> [!WARNING]
+> Make sure you're on the branch you want to _merge into_ before running the merge.
 
 ### More basic commands:
 - To see all the commits use:
@@ -81,3 +82,6 @@ git pull
 ```
 git fetch
 ```
+
+
+
