@@ -46,14 +46,10 @@ git push main origin
 ```
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> "origin" is the default name Git gives to the remote repository,
-
-> Use `commit -m --amend` if you made any mistake in last commit message
-
-> To check current changes use `git status`
-
+> Key information users need to know to achieve their goal. \
+> "origin" is the default name Git gives to the remote repository, \
+> Use `commit -m --amend` if you made any mistake in last commit message \
+> To check current changes use `git status` \
 > To see a difference between commits use `git diff`
 
 ### Branching and merging
