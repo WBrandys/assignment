@@ -46,18 +46,19 @@ git push main origin
 ```
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal. \
+> Key information users need to know to achieve their goal.
 >
-> "origin" is the default name Git gives to the remote repository, \
+> "origin" is the default name Git gives to the remote repository,
 >
-> Use `commit -m --amend` if you made any mistake in last commit message \
+> Use `commit -m --amend` if you made any mistake in last commit message 
 >
-> To check current changes use `git status` \
+> To check current changes use `git status`
 >
 > To see a difference between commits use `git diff`
 
 ### Branching and merging
 Branching lets you experiment without affecting the main branch. Later, you can merge changes back.
+
 - Create a new branch:
 ```
 git branch branch_name
